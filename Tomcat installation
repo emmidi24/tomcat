@@ -1,0 +1,18 @@
+launching an application on tomcat server
+pre-requisites
+  java
+.  take an instance instance java,git, maven
+  using apt install ubuntu (or) yum install linux
+.  after installing all the tools in to your local machine. use git clone to clone the src(source code) from remote repo to local repo
+.  go the repo using cd repo name then go to the broswer type apache.org click on downloads click distributions
+  * scroll down and find tomcat and click on it
+  * click on tomcat- 9
+  * click on v 9.0.96
+  * click on bin
+  * poin the crusor on apache-tomcat-9.0.96.tar.gz give left click and copy link
+.  now come to the instance and use the command wget apache-tomcat-9.0.96.tar.gz to downlaod the file
+.  give the command tar -zxvf apache-tomcat-9.0.96.tar.gz  to untar the file and move to tar file using cd command
+.  now go instance dashboard of aws and add 8080 port number in inbond rules of the security group
+.  coming back to instance use sh or ./ startup.sh command to start apache tomcat
+.  after tomcat open click on manger app you will be navigate to a page which shows a 403 error
+.  come to the instance
